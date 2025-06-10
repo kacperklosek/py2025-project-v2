@@ -119,7 +119,7 @@ class GameEngine:
             if player.is_human:
                 while True:
                     try:
-                        indices_str = input(f"Wybierz indeksy do wymiany (0-4) dla {player.name}: ")
+                        indices_str = input(f"Wybierz indeksy do wymiany (0-4) rozdzielajac spacja dla {player.name}: ")
                         indices = [] if not indices_str else [int(i) for i in indices_str.split()]
                         if len(indices) > 4: raise ValueError("Można wymienić maks. 4 karty.")
                         break
