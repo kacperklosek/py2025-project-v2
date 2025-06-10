@@ -1,0 +1,23 @@
+{
+  "game_id": "1ed5c171-3619-4cab-a0f1-0e55862600c9",
+  "small_blind": 25,
+  "big_blind": 50,
+  "dealer_pos": 0,
+  "players": [
+    {
+      "name": "Gracz (Ty)",
+      "stack": 950,
+      "is_human": true
+    },
+    {
+      "name": "Bot Adam",
+      "stack": 950,
+      "is_human": false
+    },
+    {
+      "name": "Bot Ewa",
+      "stack": 1100,
+      "is_human": false
+    }
+  ]
+}

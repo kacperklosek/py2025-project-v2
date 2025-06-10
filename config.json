@@ -1,0 +1,11 @@
+{
+  "small_blind": 25,
+  "big_blind": 50,
+  "initial_stack": 1000,
+  "players": [
+    { "name": "Gracz (Ty)", "is_human": true },
+    { "name": "Bot Adam", "is_human": false },
+    { "name": "Bot Ewa", "is_human": false },
+    { "name": "Bot Kasia", "is_human": false }
+  ]
+}

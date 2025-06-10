@@ -1,0 +1,224 @@
+{
+  "game_id": "5c10ec11-5b8d-4275-b8a7-34079f241c8b",
+  "hand_id": "round_1",
+  "timestamp": "2025-06-10T12:46:09.845909",
+  "players": [
+    {
+      "id": 0,
+      "name": "Gracz (Ty)",
+      "initial_stack": 1000
+    },
+    {
+      "id": 1,
+      "name": "Bot Adam",
+      "initial_stack": 1000
+    },
+    {
+      "id": 2,
+      "name": "Bot Ewa",
+      "initial_stack": 1000
+    },
+    {
+      "id": 3,
+      "name": "Bot Kasia",
+      "initial_stack": 1000
+    }
+  ],
+  "bets": [
+    {
+      "stage": "blinds",
+      "player_id": 1,
+      "action": "BLIND",
+      "amount": 25
+    },
+    {
+      "stage": "blinds",
+      "player_id": 2,
+      "action": "BLIND",
+      "amount": 50
+    },
+    {
+      "stage": "pre-exchange",
+      "player_id": 3,
+      "action": "call",
+      "amount": 50
+    },
+    {
+      "stage": "pre-exchange",
+      "player_id": 0,
+      "action": "call",
+      "amount": 50
+    },
+    {
+      "stage": "pre-exchange",
+      "player_id": 1,
+      "action": "fold",
+      "amount": 0
+    },
+    {
+      "stage": "pre-exchange",
+      "player_id": 2,
+      "action": "raise",
+      "amount": 50
+    },
+    {
+      "stage": "pre-exchange",
+      "player_id": 3,
+      "action": "call",
+      "amount": 50
+    },
+    {
+      "stage": "pre-exchange",
+      "player_id": 0,
+      "action": "raise",
+      "amount": 350
+    },
+    {
+      "stage": "pre-exchange",
+      "player_id": 2,
+      "action": "call",
+      "amount": 300
+    },
+    {
+      "stage": "pre-exchange",
+      "player_id": 3,
+      "action": "fold",
+      "amount": 0
+    }
+  ],
+  "blinds": {
+    "small": 25,
+    "big": 50
+  },
+  "deck": [
+    "2♥",
+    "6♥",
+    "3♦",
+    "T♠",
+    "2♦",
+    "T♣",
+    "7♥",
+    "A♣",
+    "J♥",
+    "4♦",
+    "6♣",
+    "5♠",
+    "Q♣",
+    "9♠",
+    "7♣",
+    "J♣",
+    "T♥",
+    "6♠",
+    "7♠",
+    "K♥",
+    "5♣",
+    "8♥",
+    "J♦",
+    "A♥",
+    "Q♦",
+    "3♥",
+    "5♥",
+    "Q♠",
+    "4♣",
+    "A♦",
+    "9♦",
+    "3♠",
+    "A♠",
+    "5♦",
+    "K♦",
+    "8♣",
+    "2♣",
+    "T♦",
+    "K♠",
+    "9♥",
+    "K♣",
+    "3♣",
+    "7♦",
+    "8♦",
+    "J♠",
+    "8♠",
+    "6♦",
+    "9♣",
+    "Q♥",
+    "4♥",
+    "4♠",
+    "2♠"
+  ],
+  "pot": 75,
+  "initial_hands": {
+    "0": [
+      "2♥",
+      "2♦",
+      "J♥",
+      "Q♣",
+      "T♥"
+    ],
+    "1": [
+      "6♥",
+      "T♣",
+      "4♦",
+      "9♠",
+      "6♠"
+    ],
+    "2": [
+      "3♦",
+      "7♥",
+      "6♣",
+      "7♣",
+      "7♠"
+    ],
+    "3": [
+      "T♠",
+      "A♣",
+      "5♠",
+      "J♣",
+      "K♥"
+    ]
+  },
+  "discards": {
+    "0": [],
+    "2": []
+  },
+  "final_hands": {
+    "0": [
+      "2♥",
+      "2♦",
+      "J♥",
+      "Q♣",
+      "T♥"
+    ],
+    "2": [
+      "3♦",
+      "7♥",
+      "6♣",
+      "7♣",
+      "7♠"
+    ]
+  },
+  "winner": {
+    "player_id": 2,
+    "pot_won": 925
+  },
+  "final_player_state": [
+    {
+      "id": 0,
+      "name": "Gracz (Ty)",
+      "final_stack": 600
+    },
+    {
+      "id": 1,
+      "name": "Bot Adam",
+      "final_stack": 975
+    },
+    {
+      "id": 2,
+      "name": "Bot Ewa",
+      "final_stack": 1525
+    },
+    {
+      "id": 3,
+      "name": "Bot Kasia",
+      "final_stack": 900
+    }
+  ]
+}
